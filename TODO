@@ -31,5 +31,5 @@ Tareas:
 Entregables:
 -----------
 1. Subir proyecto finalizado a un repositorio Git público (como Github), y compartirnos la URL del repositorio
-2. Los servicios REST deben estar correctamente documentados y deben poder ser utilizados desde Swagger
+2. Los servicios REST deben estar correctamente documentados y deben poder ser utilizados desde Swagger (en local)
 3. Indicarnos el nombre de la aplicación Google App Engine donde se encuentra desplegada la aplicación

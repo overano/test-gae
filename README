@@ -7,9 +7,11 @@ Useful information
 
 3. Access swagger: http://localhost:8080/swagger/
 
-4. Access console: http://localhost:8080/_ah/admin
+4. Access local console: http://localhost:8080/_ah/admin
 
-4. Deploy in Google: mvn clean appengine:update
+5. Access Google console: https://console.developers.google.com
+
+6. Deploy in Google: mvn clean appengine:update
 
 
 Documentation
@@ -18,5 +20,7 @@ Documentation
 Google App Engine Java: https://cloud.google.com/appengine/docs/java/
 
 Objectify: https://github.com/objectify/objectify
+
+AngularJS: https://angularjs.org/
 
 
