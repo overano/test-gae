@@ -10,7 +10,7 @@ La aplicación dispondrá del modelo de datos necesario para almacenar libros, c
 
 Dispondrá de una pantalla inicial donde:
 - Se mostrarán los libros existentes, en forma de tabla, mostrando únicamente Nombre y Autor. Adicionalmente tendrá un input para búsquedas.
-- El listado se ordenará alfabéticamente por nombre del autor
+- El listado se ordenará alfabéticamente por name del author
 - Existirá un formulario para añadir un nuevo libro
 - Existirá una opción para eliminar un libro
 
@@ -38,4 +38,4 @@ Entregables:
 -----------
 1. Subir proyecto finalizado a un repositorio Git público (como Github), y compartirnos la URL del repositorio
 2. Los servicios REST deben estar correctamente documentados y deben poder ser utilizados desde Swagger (en local)
-3. Indicarnos el nombre de la aplicación Google App Engine donde se encuentra desplegada la aplicación
+3. Indicarnos el name de la aplicación Google App Engine donde se encuentra desplegada la aplicación

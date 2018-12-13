@@ -1,6 +1,6 @@
 'use strict';
 angular
-    .module('test', ['ngRoute'])
+    .module('book', ['ngRoute'])
     .config(function ($routeProvider) {
         $routeProvider
             .when('/', {
@@ -8,7 +8,7 @@ angular
                 controller: 'ListCtrl',
                 controllerAs: 'list'
             })
-            .when('/:id', {
+            .when('/detail/:id', {
                 templateUrl: 'views/detail.html',
                 controller: 'DetailCtrl',
                 controllerAs: 'detail'

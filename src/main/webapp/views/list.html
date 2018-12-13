@@ -1,17 +1,41 @@
-<h3>List of tests</h3>
-<div ng-repeat="item in list">
-    <a href="/#/{{item.id}}">{{item.data}}</a>
-</div>
+<h3>List of Books</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Author</th>
+            <th>Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="item in list">
+            <td>{{item.author}}</td>
+            <td><a href="#/detail/{{item.id}}">{{item.name}}</a></td>
+            <td><button ng-click="delete(item.id)">X</button></td>
+        </tr>
+    </tbody>
+</table>
+<input id="query" ng-model="query"/>
+<button ng-click="search()">Search</button>
 
-<h3>New test</h3>
+
+<h3>New Book</h3>
 <div>
     <div>
-        <label for="id">id</label>
-        <input id="id" ng-model="form.id"/>
+        <label for="author">author:</label><br>
+        <input id="author" ng-model="form.author"/>
     </div>
     <div>
-        <label for="data">data</label>
-        <input id="data" ng-model="form.data"/>
+        <label for="name">name:</label><br>
+        <input id="name" ng-model="form.name"/>
+    </div>
+    <div>
+        <label for="year">year:</label><br>
+        <input id="year" ng-model="form.year"/>
+    </div>
+    <div>
+        <label for="genre">genre:</label><br>
+        <input id="genre" ng-model="form.genre"/>
     </div>
     <button ng-click="save()">Save</button>
 </div>
